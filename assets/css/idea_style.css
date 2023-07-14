@@ -1,0 +1,206 @@
+@-webkit-keyframes fadeIn {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+    }
+    
+    @keyframes fadeIn {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+    }
+    .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeOut {
+    0% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    }
+    }
+    
+    @keyframes fadeOut {
+    0% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    }
+    }
+    .fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    
+    .font-rou {
+    font-family: "Arial Rounded MT";
+    }
+    .font-segoe {
+    font-family: "Segoe UI Regular";
+    }
+    @font-face {
+    font-family: "Arial Rounded MT";
+    src: url("../font/ArialRoundedMTBold.woff2") format("woff2"),
+    url("../font/ArialRoundedMTBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    }
+    @font-face {
+    font-family: "Segoe UI Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Segoe UI Regular"), url("../font/Segoe_UI.woff") format("woff");
+    }
+    
+    @font-face {
+    font-family: "Segoe UI Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Segoe UI Italic"), url("../font/Segoe_UI_Italic.woff") format("woff");
+    }
+    
+    @font-face {
+    font-family: "Segoe UI Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Segoe UI Bold"), url("../font/Segoe_UI_Bold.woff") format("woff");
+    }
+    
+    @font-face {
+    font-family: "Segoe UI Bold Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Segoe UI Bold Italic"),
+    url("../font/Segoe_UI_Bold_Italic.woff") format("woff");
+    }
+
+
+    
+
+/* from old code */
+.preloader{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: auto;
+	height: auto;
+	margin: 0px auto;
+	z-index: 1000;
+}
+		.heart {
+
+			position: relative;
+		}
+		.heart,
+		.heart:before,
+		.heart:after {
+			/*border: 1px solid red;*/
+			display: block;
+			width: 10vh;
+			height:10vh;
+			margin: 0px auto;
+			background-color: #ea2227;
+			transform: rotateZ(45deg);
+
+		}
+		.heart:before,
+		.heart:after {
+			content: '';
+			position: absolute;
+			border-radius: 50%;
+		}
+		.heart:before {
+			transform: translateX(-50%);
+			animation: animX 3s infinite 0.75s;
+		}
+		.heart:after {
+			transform: translateY(-50%);
+			animation: animY 3s infinite;
+		}
+		@-moz-keyframes animX {
+			0%, 25% {
+				transform: translateX(-50%);
+			}
+			50%, 75% {
+				transform: translateX(50%);
+			}
+		}
+		@-webkit-keyframes animX {
+			0%, 25% {
+				transform: translateX(-50%);
+			}
+			50%, 75% {
+				transform: translateX(50%);
+			}
+		}
+		@-o-keyframes animX {
+			0%, 25% {
+				transform: translateX(-50%);
+			}
+			50%, 75% {
+				transform: translateX(50%);
+			}
+		}
+		@keyframes animX {
+			0%, 25% {
+				transform: translateX(-50%);
+			}
+			50%, 75% {
+				transform: translateX(50%);
+			}
+		}
+		@-moz-keyframes animY {
+			0%, 25% {
+				transform: translateY(-50%);
+			}
+			50%, 75% {
+				transform: translateY(50%);
+			}
+		}
+		@-webkit-keyframes animY {
+			0%, 25% {
+				transform: translateY(-50%);
+			}
+			50%, 75% {
+				transform: translateY(50%);
+			}
+		}
+		@-o-keyframes animY {
+			0%, 25% {
+				transform: translateY(-50%);
+			}
+			50%, 75% {
+				transform: translateY(50%);
+			}
+		}
+		@keyframes animY {
+			0%, 25% {
+				transform: translateY(-50%);
+			}
+			50%, 75% {
+				transform: translateY(50%);
+			}
+		}
+        .website{
+			display: none;
+		}
+/* from old code */

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Kokorosushi</title>
+   
+    <link href="https://kokorosushi.be/assets/font/Segoe_UI_Bold.woff" rel="stylesheet">
+  	<link href="https://kokorosushi.be/assets/font/ArialRoundedMTBold.woff" rel="stylesheet">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  
+  	<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+           font-family: "Segoe UI Regular";
+        }
+    
+     .category-title{
+       font-family: "Arial Rounded MT";
+      }
+      
+    .font-segoe {
+    font-family: "Segoe UI Regular";
+    }
+    @font-face {
+    font-family: "Arial Rounded MT";
+    src: url("https://kokorosushi.be/assets/font/ArialRoundedMTBold.woff2") format("woff2"),
+    url("https://kokorosushi.be/assets/font/ArialRoundedMTBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    }
+    @font-face {
+    font-family: "Segoe UI Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Segoe UI Regular"), url("https://kokorosushi.be/assets/font/Segoe_UI.woff") format("woff");
+    }
+    
+    @font-face {
+    font-family: "Segoe UI Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Segoe UI Italic"), url("https://kokorosushi.be/assets/font/Segoe_UI_Italic.woff") format("woff");
+    }
+    
+    @font-face {
+    font-family: "Segoe UI Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Segoe UI Bold"), url("https://kokorosushi.be/assets/font/Segoe_UI_Bold.woff") format("woff");
+    }
+    
+    @font-face {
+    font-family: "Segoe UI Bold Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Segoe UI Bold Italic"),
+    url("../font/Segoe_UI_Bold_Italic.woff") format("woff");
+    }
+
+        .card {
+            padding: 3rem;
+            background-color: #ebe3e333;
+            --tw-shadow-color: rgb(248 113 113 / 0.5);
+            --tw-shadow: 0 25px 50px -12px rgba(255, 137, 137, 0.747);
+            --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+            box-shadow: var(--tw-ring-offset-shadow, 0 0 #f08b8bdc), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+            border-radius: 1rem;
+            width: 100%;
+            position: relative;
+         	 transition-duration: 200ms;
+        }
+
+        .card button {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            width: 6rem;
+            margin-top: 3rem;
+            border-radius: 5rem;
+            padding: 5px 15px;
+            background-image: linear-gradient(90deg, #FE3131, #FE3131, #f09b9b) !important;
+          transition-duration: 200ms;
+        }
+      .card button:hover{
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            width: 6rem;
+            margin-top: 3rem;
+            border-radius: 5rem;
+            padding: 5px 15px;
+            background-image: linear-gradient(90deg, #f09b9b, #FE3131, #FE3131) !important;
+           transition-duration: 200ms;
+        }
+
+      
+      .home-button{
+        
+   
+        background-image: linear-gradient(90deg, #FE3131, #FE3131, #f09b9b) !important;
+        transition-duration: 200ms;
+      }
+      
+      .home-button:hover{
+        background-image: linear-gradient(90deg, #f09b9b, #FE3131, #FE3131) !important;
+           transition-duration: 200ms;
+      }
+      
+      
+        .card:hover {
+            padding: 3rem;
+            background-color: #ebe3e333;
+            /* box-shadow: 15px 2px 17px rgb(255, 160, 160) ; */
+            box-shadow: rgb(255, 138, 138) 0px 0px 0px 0px;
+            border-radius: 1rem;
+          	transition-duration: 200ms;
+        }
+
+        .cat_btn {
+            padding: 5px 15px;
+        }
+
+        .cat_btn:hover {
+            background-color: #FE3131;
+            color: rgb(255, 255, 255);
+        }
+
+        .cat_btn:focus {
+            background-color: #FE3131;
+        }
+
+        .bg-gradient-button {
+            background-image: linear-gradient(90deg, #FE3131, #FE3131, #FE3131);
+        }
+    </style>
+   
+</head>
+
+<body class="lg:px-40 p-10 " onload="run()">
+    <!-- <div class=" mx-auto h-20 w-20 my-4" id="qrcode">
+    
+        </div> -->
+    <div class="w-full text-center">
+        <h1 class="text-3xl font-bold text-center text-[#FE3131] mt-5 category-title">Menu Chart</h1>
+        <button class='my-5'>
+      <a href='https://kokorosushi.be/' class='px-5 rounded-full py-2 font-bold  home-button text-white'>Home</a>
+      </button>
+    </div>
+   
+
+    <div class="">
+      <div class="m-auto relative w-[70%] sm:w-1/2 mt-4">
+    <input  onkeyup="run(this.value)" id="search_text" name="search" class="text-lg outline-none border-gray-300 rounded-2xl h-10 pl-4 focus:shadow-none placeholder:text-center placeholder:text-gray-500 w-full border-[1px] px-3 py-6 shadow-2xl shadow-red-400/50 duration-200" type="text" placeholder="Search">
+    <!-- <div id="sea_btn" class="absolute top-[10%] left-[42%]">Search</div> -->
+    <i class="bg-gradient-to-r from-[#fe1e62] via-[#fe5568] to-[#fe8a6d] absolute top-[12%] right-[1%] py-[7px] px-5 rounded-xl cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white font-bold">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+</svg>
+
+        </i>
+    </div>
+      
+       
+
+        <h5 class="m:text-5xl text-3xl font-semibold sm:font-bold text-[#ff3131] text-center my-10 category-title">CATAGORY</h5>
+        <div id="">
+            <div id="cat_id" class="flex flex-wrap justify-center gap-3 font-bold text-[18px] font-segoe">
+                <button onclick="run()"
+                    class="px-5 rounded-full border active:bg-[#FE3131] active:text-white font-bold">All</button>
+            </div>
+
+            <div id="product" class="grid lg:grid-cols-4 grid-cols-1 gap-10 mt-20">
+            </div>
+        </div>
+        
+
+        <script>
+            const category = () => {
+                const parent = document.getElementById('cat_id');
+                fetch('https://kokorosushi.be/category')
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log(data)
+                        data.map(cat => {
+
+                            const button = document.createElement('button');
+                            button.classList.add('px-2')
+                            button.classList.add('rounded-full')
+                            button.classList.add('border')
+                            button.classList.add('cat_btn')
+                            button.onclick = () => {
+                                handlecategory(cat.cat_id);
+                            };
+
+                            button.innerText = cat.cat_name;
+                            parent.appendChild(button)
+                        })
+                    })
+            }
+            category();
+
+
+            const handlecategory = (e) => {
+
+                const oldparent = document.getElementById('product');
+                oldparent.innerHTML = ''
+
+                fetch('https://kokorosushi.be/data')
+                    .then(res => res.json())
+                    .then(data => {
+                        const peopleByLetter = (letter) => {
+                            return data.filter(product => product.cat_id == letter);
+                        };
+
+                        const food = peopleByLetter(e);
+                        food.map(data => {
+                            const div = document.createElement('div');
+                            div.classList.add('card')
+                            div.innerHTML = `
+                            <h3 class='mb-3 font-bold text-xl'>${data.display_id}) ${data.name}</h3>
+                            <h5 class='mb-3 pb-3 text-[#FE3131] text-xl'>${data.attr1 ? data.attr1 : ''}</h5>
+                            <button class='my-2  text-white   bg-[#FE3131]'>${data.price} <span>&euro;</span></button>
+                            `
+                            oldparent.appendChild(div)
+                        })
+
+                    })
+
+
+            }
+
+
+
+
+            const run = (e) => {
+                document.getElementById('product').innerHTML = ''
+                console.log(e)
+                fetch('https://kokorosushi.be/data')
+                    .then(res => res.json())
+                    .then(data => {
+                        const parent = document.getElementById('product');
+
+                        if (e) {
+                            const peopleByLetter = (letter) => {
+                                return data.filter(product => product.name.toLowerCase().indexOf(letter.toLowerCase()) !== -1);
+                            };
+
+                            const food = peopleByLetter(e);
+                            food.map(data => {
+                                const div = document.createElement('div');
+                                div.classList.add('card')
+
+                                div.innerHTML = `
+                                <h3 class='mb-3 text-xl font-bold'>${data.display_id}) ${data.name}</h3>
+                                <h5 class='mb-3 pb-3 text-[#FE3131] text-xl'>${data.attr1 ? data.attr1 : ''}</h5>
+                                <button class='my-2   text-white   bg-[#FE3131]'>${data.price} <span>&euro;</span></button>
+                                `
+                                parent.appendChild(div)
+                            })
+                        } else {
+
+                            data.map(data => {
+                                const div = document.createElement('div');
+                                div.classList.add('card')
+
+                                div.innerHTML = `
+                                <h3 class='mb-3 text-xl font-bold'>${data.display_id}) ${data.name}</h3>
+                                <h5 class='mb-3 pb-3 text-[#FE3131] text-xl'>${data.attr1 ? data.attr1 : ''}</h5>
+                                <button class='my-2   text-white   bg-[#FE3131]'>${data.price} <span>&euro;</span></button>
+                                `
+                                parent.appendChild(div)
+                            })
+                        }
+                    })
+            };
+
+
+
+
+
+
+
+
+
+        </script>
+
+
+
+        <script>
+            // Get the container element
+            const container = document.getElementById('qrcode');
+
+            // Create a new instance of QRCode.js
+            const qrcode = new QRCode(container, {
+                text: 'https://kokorosushi.be/qr/', // URL or any other text you want to encode
+                width: 128, // Width of the QR code
+                height: 128, // Height of the QR code
+            });
+
+            // Optional: You can also customize the QR code appearance
+            qrcode.make();
+        </script>
+</body>
+
+</html>

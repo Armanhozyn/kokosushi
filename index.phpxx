@@ -1,0 +1,449 @@
+<?php 
+    $demo = "Combine Ground Beef and steak seasoning in large bowl, mixing lightly but thoroughly. Lightly shape into four 1/2-inch thick patties";
+?>
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>KOKORO SUSHI & BENTO</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="144x144"  href="assets/images/favicon/android-icon-144x144.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-47380830-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-47380830-1');
+</script>
+    
+</head>
+<body>
+    <div class="container-fluid header">
+        <div class="container">
+            <div class="logo-box" >
+                <a href="https://www.kokorosushi.be" >
+                    <img src="assets/images/kokorosushi-blank.png" class="logo" alt="Kokoro Sushi Logo">
+                </a>                
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-10">
+                <form>
+                    <div class="input-group mb-3 input-group-lg">
+                        <input type="text" class="form-control" name="search" placeholder="Search here.." id="search">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text btn-danger text-white btn-search" onclick="search();">
+                                <i class="fas fa-search"></i> <span class="search-btn-name"></span>
+                            </span>
+                        </div>                        
+                    </div>
+                </form>
+                
+            </div>            
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-danger btn-lg btn-cart-list">
+                    <i class="fas fa-cart-plus"></i> CART <span class="badge badge-dark" id="cart-item-count">0</span>
+                </button>
+            </div>
+            <div class="col-md-12">
+                
+            </div> 
+            <div class="m-2"></div>
+           
+        </div>
+
+      
+
+
+        <!-- Cats Nav -->
+        <ul class="nav nav-pills cat-nav" role="tablist">
+            <li class="nav-item"> <a class="nav-link active" data-toggle="pill" href="#ALL">ALL</a></li>
+            <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#TARTARE">TARTARE</a> </li>
+            <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#CRIPSY_ROLL">CRIPSY ROLL</a> </li>
+            <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#SASHIMI">SASHIMI</a> </li>
+            <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#SUSHI_NIGIRI">SUSHI NIGIRI</a> </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div id="ALL" class="tab-pane active ">
+
+
+                <!-- TARTARE -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="bg-danger text-white cat">
+                            <h4 class="cat-title">TARTARE</h4>
+                        </div>  
+                    </div>
+                <?php
+                    $TARTARE = [
+                        [ '1',"Zalm Tartare",'met avocado, rode ui , pipeui, olivfolie dressing met masago en dil','14.50','product_image_w300.jpg'],
+                        ['2', "Zeebar en Mango Tartare",'met mango, avocado, citron en corindre','14.90','product_image_w300.jpg']
+                    ];            
+                    for ($row = 0; $row < count($TARTARE); $row++) { ?>
+                    <div class="col-lg-6">        
+                        <div class="row" id="product-item">
+                            <div class="col-lg-5 col-md-4 col-5">
+                                <img class="product-thumb" src="assets/images/product/<?=$TARTARE[$row][4];?>" alt="<?=$TARTARE[$row][1];?>" >
+                            </div>
+                            <div class="col-lg-7 col-md-8 col-7 product-info">
+                                <h5 class="product-title text-danger"> <?=$TARTARE[$row][1];?></h5>
+                                <p class="product-details"><?=$TARTARE[$row][2];?></p>
+                                <div align="right">
+                                    <span class="btn btn-sm price" >PRICE: € <?=$TARTARE[$row][3];?></span>
+                                    <a href="javacript:void(0)" class="btn btn-sm btn-danger btn-cart" onclick="get_item(<?=$TARTARE[$row][0];?>);" title="ADD TO CART"><i class="fas fa-cart-plus"></i> ADD</a>
+                                </div>             
+                            </div>
+                        </div>       
+                    </div>
+                    <?php } ?>
+                </div>
+                <!-- END -->
+
+
+                <!-- CRIPSY ROLL -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="bg-danger text-white cat">
+                            <h4 class="cat-title">CRIPSY ROLL</h4>
+                        </div>  
+                    </div>
+                <?php
+                    $CRIPSY_ROLL = [
+                        ['3', "Crispy Zalm Roll",$demo,'07.50','product_image_w300.jpg'],
+                        ['4', "Crispy Scampi Roll",$demo,'07.50','product_image_w300.jpg'],
+                        ['5', "Crispy Kip Roll",$demo,'06.50','product_image_w300.jpg'],          
+                        ['6', "Crispy Kaas Roll",$demo,'05.50','product_image_w300.jpg']
+                    ];            
+                    for ($row = 0; $row < count($CRIPSY_ROLL); $row++) { ?>
+                    <div class="col-lg-6">        
+                        <div class="row" id="product-item">
+                            <div class="col-lg-5 col-md-4 col-5">
+                                <img class="product-thumb" src="assets/images/product/<?=$CRIPSY_ROLL[$row][4];?>" alt="<?=$CRIPSY_ROLL[$row][1];?>" >
+                            </div>
+                            <div class="col-lg-7 col-md-8 col-7 product-info">
+                                <h5 class="product-title text-danger"> <?=$CRIPSY_ROLL[$row][1];?></h5>
+                                <p class="product-details"><?=$CRIPSY_ROLL[$row][2];?></p>
+                                <div align="right">
+                                    <span class="btn btn-sm price" >PRICE: € <?=$CRIPSY_ROLL[$row][3];?></span>
+                                    <a href="javacript:void(0)" class="btn btn-sm btn-danger btn-cart" onclick="get_item(<?=$CRIPSY_ROLL[$row][0];?>);" title="ADD TO CART"><i class="fas fa-cart-plus"></i> ADD</a>
+                                </div>             
+                            </div>
+                        </div>       
+                    </div>
+                    <?php } ?>
+                </div>
+                <!-- END -->
+
+
+                <!-- SASHIMI -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="bg-danger text-white cat">
+                            <h4 class="cat-title">SASHIMI</h4>
+                        </div>  
+                    </div>
+                <?php
+                    $SASHIMI = [
+                        ['7', "Zalm Sashimi",'12 st. (met rijst)','15.90','product_image_w300.jpg'],
+                        ['8', "Tataki Zalm sashimi",'12 st. (met rijst)','16.90','product_image_w300.jpg'],
+                        ['9', "Tonijn Sashimi",'12 st. (met rijst)','17.90','product_image_w300.jpg'],
+                        ['10', "Tataki Tonijn Sashimi jalapano",'12 st. (met rijst)','19.90','product_image_w300.jpg'],          
+                        ['11', "Kokoro Mix Sashimi",'+- 30 st.','32.00','product_image_w300.jpg'],
+                        ['12', "Kokoro Delux Sashimi",'+- 40 st.','44.90','product_image_w300.jpg']
+                    ];            
+                    for ($row = 0; $row < count($SASHIMI); $row++) { ?>
+                    <div class="col-lg-6">        
+                        <div class="row" id="product-item">
+                            <div class="col-lg-5 col-md-4 col-5">
+                                <img class="product-thumb" src="assets/images/product/<?=$SASHIMI[$row][4];?>" alt="<?=$SASHIMI[$row][1];?>" >
+                            </div>
+                            <div class="col-lg-7 col-md-8 col-7 product-info">
+                                <h5 class="product-title text-danger"> <?=$SASHIMI[$row][1];?></h5>
+                                <p class="product-details"><?=$SASHIMI[$row][2];?></p>
+                                <div align="right">
+                                    <span class="btn btn-sm price" >PRICE: € <?=$SASHIMI[$row][3];?></span>
+                                    <a href="javacript:void(0)" class="btn btn-sm btn-danger btn-cart" onclick="get_item(<?=$SASHIMI[$row][0];?>);" title="ADD TO CART"><i class="fas fa-cart-plus"></i> ADD</a>
+                                </div>             
+                            </div>
+                        </div>       
+                    </div>
+                    <?php } ?>
+                </div>
+                <!-- END -->
+
+
+                <!-- SUSHI NIGIRI, GUNKAN & TULIP -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="bg-danger text-white cat">
+                            <h4 class="cat-title">SUSHI NIGIRI, GUNKAN & TULIP</h4>
+                        </div>  
+                    </div>
+                <?php
+                    $SUSHI_NIGIRI = [
+                        ['13', "Avocado nigiri",$demo,'01.30','product_image_w300.jpg'],
+                        ['14', "Komkommer nigiri",$demo,'01.30','product_image_w300.jpg'],
+                        ['15', "Zalm Nigiri",$demo,'01.90','product_image_w300.jpg'],
+                        ['16', "Zalmsnake nigiri",$demo,'02.10','product_image_w300.jpg'],
+                        ['17', "Tonijn Nigiri",$demo,'02.30','product_image_w300.jpg'],
+                        ['18', "Scampi Nigiri",$demo,'02.80','product_image_w300.jpg'],
+                        ['19', "Zeebaars Nigiri",$demo,'03.20','product_image_w300.jpg'],
+                        ['20', "Paling Nigiri",$demo,'02.80','product_image_w300.jpg'],
+                        ['21', "Oester Nigiri",$demo,'03.20','product_image_w300.jpg'],
+                        ['22', "Beef Nigiri",$demo,'02.30','product_image_w300.jpg'],
+                        ['23', "Inari Nigiri",$demo,'01.90','product_image_w300.jpg'],
+                        ['24', "Hokkigai Nigiri",$demo,'02.10','product_image_w300.jpg'],
+                        ['25', "Octopus Nigiri",$demo,'01.90','product_image_w300.jpg'],
+                        ['26', "Maquereau Nigiri",$demo,'01.90','product_image_w300.jpg'],
+                        ['27', "Tamago Nigiri",$demo,'01.40','product_image_w300.jpg'],
+                        ['28', "Gunkan Ikura",$demo,'03.50','product_image_w300.jpg'],
+                        ['29', "Gunkan Zalmspicy",$demo,'02.80','product_image_w300.jpg'],
+                        ['30', "Tulip Zalm Ikura",$demo,'02.80','product_image_w300.jpg'],
+                        ['31', "Tulip Komkommer Kaas",$demo,'01.90','product_image_w300.jpg'] 
+                    ];            
+                    for ($row = 0; $row < count($SUSHI_NIGIRI); $row++) { ?>
+                    <div class="col-lg-6">        
+                        <div class="row" id="product-item">
+                            <div class="col-lg-5 col-md-4 col-5">
+                                <img class="product-thumb" src="assets/images/product/<?=$SUSHI_NIGIRI[$row][4];?>" alt="<?=$SUSHI_NIGIRI[$row][1];?>" >
+                            </div>
+                            <div class="col-lg-7 col-md-8 col-7 product-info">
+                                <h5 class="product-title text-danger"> <?=$SUSHI_NIGIRI[$row][1];?></h5>
+                                <p class="product-details"><?=$SUSHI_NIGIRI[$row][2];?></p>
+                                <div align="right">
+                                    <span class="btn btn-sm price" >PRICE: € <?=$SUSHI_NIGIRI[$row][3];?></span>
+                                    <a href="javacript:void(0)" class="btn btn-sm btn-danger btn-cart" onclick="get_item(<?=$SUSHI_NIGIRI[$row][0];?>);" title="ADD TO CART"><i class="fas fa-cart-plus"></i> ADD</a>
+                                </div>             
+                            </div>
+                        </div>       
+                    </div>
+
+                    <?php } ?>
+                </div>
+                <!-- END -->
+              
+            </div>
+
+            <div id="TARTARE" class="tab-pane fade">
+                <!-- TARTARE -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="bg-danger text-white cat">
+                            <h4 class="cat-title">TARTARE</h4>
+                        </div>  
+                    </div>
+                <?php
+                    $TARTARE = [
+                        [ '1',"Zalm Tartare",'met avocado, rode ui , pipeui, olivfolie dressing met masago en dil','14.50','product_image_w300.jpg'],
+                        ['2', "Zeebar en Mango Tartare",'met mango, avocado, citron en corindre','14.90','product_image_w300.jpg']
+                    ];            
+                    for ($row = 0; $row < count($TARTARE); $row++) { ?>
+                    <div class="col-lg-6">        
+                        <div class="row" id="product-item">
+                            <div class="col-lg-5 col-md-4 col-5">
+                                <img class="product-thumb" src="assets/images/product/<?=$TARTARE[$row][4];?>" alt="<?=$TARTARE[$row][1];?>" >
+                            </div>
+                            <div class="col-lg-7 col-md-8 col-7 product-info">
+                                <h5 class="product-title text-danger"> <?=$TARTARE[$row][1];?></h5>
+                                <p class="product-details"><?=$TARTARE[$row][2];?></p>
+                                <div align="right">
+                                    <span class="btn btn-sm price" >PRICE: € <?=$TARTARE[$row][3];?></span>
+                                    <a href="javacript:void(0)" class="btn btn-sm btn-danger btn-cart" onclick="get_item(<?=$TARTARE[$row][0];?>);" title="ADD TO CART"><i class="fas fa-cart-plus"></i> ADD</a>
+                                </div>             
+                            </div>
+                        </div>       
+                    </div>
+                    <?php } ?>
+                </div>
+                <!-- END -->
+            </div>
+            <div id="CRIPSY_ROLL" class="tab-pane fade">
+                <!-- CRIPSY ROLL -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="bg-danger text-white cat">
+                            <h4 class="cat-title">CRIPSY ROLL</h4>
+                        </div>  
+                    </div>
+                <?php
+                    $CRIPSY_ROLL = [
+                        ['3', "Crispy Zalm Roll",$demo,'07.50','product_image_w300.jpg'],
+                        ['4', "Crispy Scampi Roll",$demo,'07.50','product_image_w300.jpg'],
+                        ['5', "Crispy Kip Roll",$demo,'06.50','product_image_w300.jpg'],          
+                        ['6', "Crispy Kaas Roll",$demo,'05.50','product_image_w300.jpg']
+                    ];            
+                    for ($row = 0; $row < count($CRIPSY_ROLL); $row++) { ?>
+                    <div class="col-lg-6">        
+                        <div class="row" id="product-item">
+                            <div class="col-lg-5 col-md-4 col-5">
+                                <img class="product-thumb" src="assets/images/product/<?=$CRIPSY_ROLL[$row][4];?>" alt="<?=$CRIPSY_ROLL[$row][1];?>" >
+                            </div>
+                            <div class="col-lg-7 col-md-8 col-7 product-info">
+                                <h5 class="product-title text-danger"> <?=$CRIPSY_ROLL[$row][1];?></h5>
+                                <p class="product-details"><?=$CRIPSY_ROLL[$row][2];?></p>
+                                <div align="right">
+                                    <span class="btn btn-sm price" >PRICE: € <?=$CRIPSY_ROLL[$row][3];?></span>
+                                    <a href="javacript:void(0)" class="btn btn-sm btn-danger btn-cart" onclick="get_item(<?=$CRIPSY_ROLL[$row][0];?>);" title="ADD TO CART"><i class="fas fa-cart-plus"></i> ADD</a>
+                                </div>             
+                            </div>
+                        </div>       
+                    </div>
+                    <?php } ?>
+                </div>
+                <!-- END -->
+            </div>
+            <div id="SASHIMI" class="tab-pane fade">
+                <!-- SASHIMI -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="bg-danger text-white cat">
+                            <h4 class="cat-title">SASHIMI</h4>
+                        </div>  
+                    </div>
+                <?php
+                    $SASHIMI = [
+                        ['7', "Zalm Sashimi",'12 st. (met rijst)','15.90','product_image_w300.jpg'],
+                        ['8', "Tataki Zalm sashimi",'12 st. (met rijst)','16.90','product_image_w300.jpg'],
+                        ['9', "Tonijn Sashimi",'12 st. (met rijst)','17.90','product_image_w300.jpg'],
+                        ['10', "Tataki Tonijn Sashimi jalapano",'12 st. (met rijst)','19.90','product_image_w300.jpg'],          
+                        ['11', "Kokoro Mix Sashimi",'+- 30 st.','32.00','product_image_w300.jpg'],
+                        ['12', "Kokoro Delux Sashimi",'+- 40 st.','44.90','product_image_w300.jpg']
+                    ];            
+                    for ($row = 0; $row < count($SASHIMI); $row++) { ?>
+                    <div class="col-lg-6">        
+                        <div class="row" id="product-item">
+                            <div class="col-lg-5 col-md-4 col-5">
+                                <img class="product-thumb" src="assets/images/product/<?=$SASHIMI[$row][4];?>" alt="<?=$SASHIMI[$row][1];?>" >
+                            </div>
+                            <div class="col-lg-7 col-md-8 col-7 product-info">
+                                <h5 class="product-title text-danger"> <?=$SASHIMI[$row][1];?></h5>
+                                <p class="product-details"><?=$SASHIMI[$row][2];?></p>
+                                <div align="right">
+                                    <span class="btn btn-sm price" >PRICE: € <?=$SASHIMI[$row][3];?></span>
+                                    <a href="javacript:void(0)" class="btn btn-sm btn-danger btn-cart" onclick="get_item(<?=$SASHIMI[$row][0];?>);" title="ADD TO CART"><i class="fas fa-cart-plus"></i> ADD</a>
+                                </div>             
+                            </div>
+                        </div>       
+                    </div>
+                    <?php } ?>
+                </div>
+                <!-- END -->
+            </div>
+            <div id="SUSHI_NIGIRI" class="tab-pane fade">
+                <!-- SUSHI NIGIRI, GUNKAN & TULIP -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="bg-danger text-white cat">
+                            <h4 class="cat-title">SUSHI NIGIRI, GUNKAN & TULIP</h4>
+                        </div>  
+                    </div>
+                <?php
+                    $SUSHI_NIGIRI = [
+                        ['13', "Avocado nigiri",$demo,'01.30','product_image_w300.jpg'],
+                        ['14', "Komkommer nigiri",$demo,'01.30','product_image_w300.jpg'],
+                        ['15', "Zalm Nigiri",$demo,'01.90','product_image_w300.jpg'],
+                        ['16', "Zalmsnake nigiri",$demo,'02.10','product_image_w300.jpg'],
+                        ['17', "Tonijn Nigiri",$demo,'02.30','product_image_w300.jpg'],
+                        ['18', "Scampi Nigiri",$demo,'02.80','product_image_w300.jpg'],
+                        ['19', "Zeebaars Nigiri",$demo,'03.20','product_image_w300.jpg'],
+                        ['20', "Paling Nigiri",$demo,'02.80','product_image_w300.jpg'],
+                        ['21', "Oester Nigiri",$demo,'03.20','product_image_w300.jpg'],
+                        ['22', "Beef Nigiri",$demo,'02.30','product_image_w300.jpg'],
+                        ['23', "Inari Nigiri",$demo,'01.90','product_image_w300.jpg'],
+                        ['24', "Hokkigai Nigiri",$demo,'02.10','product_image_w300.jpg'],
+                        ['25', "Octopus Nigiri",$demo,'01.90','product_image_w300.jpg'],
+                        ['26', "Maquereau Nigiri",$demo,'01.90','product_image_w300.jpg'],
+                        ['27', "Tamago Nigiri",$demo,'01.40','product_image_w300.jpg'],
+                        ['28', "Gunkan Ikura",$demo,'03.50','product_image_w300.jpg'],
+                        ['29', "Gunkan Zalmspicy",$demo,'02.80','product_image_w300.jpg'],
+                        ['30', "Tulip Zalm Ikura",$demo,'02.80','product_image_w300.jpg'],
+                        ['31', "Tulip Komkommer Kaas",$demo,'01.90','product_image_w300.jpg'] 
+                    ];            
+                    for ($row = 0; $row < count($SUSHI_NIGIRI); $row++) { ?>
+                    <div class="col-lg-6">        
+                        <div class="row" id="product-item">
+                            <div class="col-lg-5 col-md-4 col-5">
+                                <img class="product-thumb" src="assets/images/product/<?=$SUSHI_NIGIRI[$row][4];?>" alt="<?=$SUSHI_NIGIRI[$row][1];?>" >
+                            </div>
+                            <div class="col-lg-7 col-md-8 col-7 product-info">
+                                <h5 class="product-title text-danger"> <?=$SUSHI_NIGIRI[$row][1];?></h5>
+                                <p class="product-details"><?=$SUSHI_NIGIRI[$row][2];?></p>
+                                <div align="right">
+                                    <span class="btn btn-sm price" >PRICE: € <?=$SUSHI_NIGIRI[$row][3];?></span>
+                                    <a href="javacript:void(0)" class="btn btn-sm btn-danger btn-cart" onclick="get_item(<?=$SUSHI_NIGIRI[$row][0];?>);" title="ADD TO CART"><i class="fas fa-cart-plus"></i> ADD</a>
+                                </div>             
+                            </div>
+                        </div>       
+                    </div>
+
+                    <?php } ?>
+                </div>
+                <!-- END -->
+            </div>
+        </div>
+
+
+
+        <footer >
+            © 2019 - <script type="text/javascript">document.write(new Date().getFullYear());</script> KOKORO SUSHI All right reserved.</span>
+        </footer>
+    </div>
+
+
+
+    <script>
+        function get_item(item_id) {
+            var get_total_item  = parseInt($("#cart-item-count").text());
+            var add_new_item    = get_total_item+1;
+            $("#cart-item-count").text(add_new_item);
+             
+        }
+    </script>
+    <script>
+        function search(){
+            var get_text = $("#search").val();
+            if (get_text.length > 2) {
+                alert("Search Result: "+get_text);
+            }  
+        }
+    </script>
+
+
+</body>
+</html>      

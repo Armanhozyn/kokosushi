@@ -1,0 +1,855 @@
+/* ------------------------------------------------
+
+        1. Default stylesheets                      
+
+------------------------------------------------ */
+
+body{
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+th,
+td,
+table,
+form{
+    text-align: right;
+}
+
+.rev-slider {
+    direction: ltr;
+}
+
+.rev_slider_wrapper .mad-actions {
+    direction: rtl;
+}
+
+/* ------------------------------------------------
+
+        2. General classes                      
+
+------------------------------------------------ */
+
+.align-right{
+    text-align: left;
+}
+
+.align-left{
+    text-align: right;
+}
+
+.f-right{
+    float: left;
+}
+
+.f-left{
+    float: right;
+}
+
+img.alignright{
+    float: left;
+    margin-left: 0;
+    margin-right: 1.875rem;
+}
+
+img.alignleft{
+    float: right;
+    margin-right: 0;
+    margin-left: 1.875rem;
+}
+
+th,
+td,
+table,
+form,
+[class*="table-type"] table tr > td, 
+[class*="table-type"] table tr > th{
+    text-align: right;
+}
+
+/* ------------------------------------------------
+
+        3. Main
+
+------------------------------------------------ */
+
+/* -------------------------- Header ------------------------- */
+
+/* main menu */
+
+.mad-navigation .sub-menu {
+    left: auto;
+    right: 0;
+}
+
+.mad-navigation .sub-menu .menu-item-has-children::after {
+    right: auto;
+    left: 0;
+    content: "\e93b";
+}
+
+.mad-navigation > li:not(.mega-menu) > .sub-menu {
+    left: auto;
+    right: -2rem;
+}
+
+.mad-navigation li:not(.mega-menu) .sub-menu .sub-menu:not(.mad-reverse) {
+    left: auto;
+    right: 100%;
+    margin-left: 0;
+    margin-right: 2.5rem;
+}
+
+.mad-navigation .sub-menu .menu-item-has-children {
+    padding-right: 0;
+    padding-left: 2.8rem;
+}
+
+/* main menu end */
+
+.mad-actions {
+    padding-left: 0;
+    padding-right: 2.5rem;
+}
+
+.mad-actions .mad-item-link .mad-count {
+    right: auto;
+    left: 0;
+}
+
+.arcticmodal-close {
+    right: auto;
+    left: 4rem;
+}
+
+.mad-modal--search form button {
+    margin-left: 0;
+    margin-right: 0.5rem;
+}
+
+.mad-modal--search .mad-title {
+    margin-right: 0;
+    margin-left: 2rem;
+}
+
+.mad-header.mad-header-aside {
+    left: auto;
+    right: 0;
+}
+
+.mad-page-wrapper.with-side-menu {
+    margin-left: 0;
+    margin-right: 20rem;
+}
+
+.rev_slider_wrapper .mad-actions {
+    right: auto;
+    left: 3.5rem;
+}
+
+.mad-page-wrapper.with-side-menu .mad-bg-section .mad-colorizer-bg-image {
+    background-position: left center!important;
+}
+
+.mad-header-items.item-col-2 > *:last-child {
+    text-align: left;
+}
+
+/* ----------------------- End of Header --------------------- */
+
+/* ----------------------- Shortcodes ------------------------ */
+
+.mad-panels-title > button:after,
+.mad-csstransforms3d .mad-panels-title > button::after {
+    font-family: 'Material Icons';
+    font-size: 1.125rem;
+    line-height: 1;
+    font-weight: 600;
+    margin-left: 0.875rem;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: inherit;
+    transition-duration: inherit;
+    -webkit-transition-timing-function: inherit;
+    transition-timing-function: inherit;
+}
+
+.mad-panels-active.mad-panels-title > button::after {
+    color: #040a1c;
+}
+
+.mad-panels.mad-panels--style-2 .mad-panels-title > button:before,
+.mad-panels-title > button:before {
+    display: none;
+}
+
+.mad-panels.mad-panels--style-2 .mad-panels-title > button:after {
+    left: auto;
+    right: 2rem;
+    line-height: inherit;
+    color: #ca3c3f;
+}
+
+.mad-panels-active.mad-panels-title > button::after {
+    content: "remove";
+}
+
+.mad-panels-title > button:after {
+    content: "add";
+}
+
+.mad-alert-box-inner::before {
+    right: 2rem;
+    left: auto;
+}
+
+.mad-alert-box-close {
+    right: auto;
+    left: 2rem;
+}
+
+.mad-alert-box-inner {
+    padding-right: 4.5rem;
+    padding-left: 3.75rem;
+}
+
+[class*="btn"] > i:not(:only-child):last-child {
+    margin-left: 0;
+    margin-right: 0.5rem;
+}
+
+.mad-read-more.big-size {
+    margin-right: 0;
+    margin-left: 2.5rem;
+}
+
+.mad-read-more.big-size .svg {
+    right: auto;
+    left: -2.5rem;
+}
+
+.mad-read-more {
+    margin-right: 0;
+    margin-left: 2rem;
+}
+
+.mad-read-more .svg {
+    right: auto;
+    left: -2rem;
+}
+
+.mad-icon-boxes.type-2 .mad-col:not(:last-child) .mad-icon-box:before {
+    right: auto;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.mad-icon-boxes.type-2 .mad-col:not(:last-child) .mad-icon-box.with-arrow-down:before {
+    left: auto;
+    right: 1.5rem;
+    transform: rotate(360deg);
+}
+
+[class*="form-col"].with-icon input {
+    padding-left: 1.25rem;
+    padding-right: 3.75rem;
+}
+
+[class*="form-col"].with-icon i {
+    left: auto;
+    right: 22px;
+}
+
+.mad-pricing-table-price {
+    margin-right: 0;
+    margin-left: 2rem;
+    padding-left: 0;
+    padding-right: 1.25rem;
+}
+
+.mad-pricing-tables .mad-pricing-table-price:before {
+    left: auto;
+    right: 0;
+}
+
+.mad-pricing-tables.type-3 .mad-pricing-table-price:before {
+    display: inline-block;
+}
+
+.mad-pricing-tables.type-3.with-bg .mad-pricing-table .mad-wave {
+    margin-left: 0;
+    margin-right: -2rem;
+}
+
+.mad-progress-bar-indicator {
+    left: auto;
+    right: 0;
+}
+
+.mad-progress-bar-title::after {
+    right: auto;
+    left: 0;
+}
+
+.mad-progress-bar-title {
+    padding-right: 0;
+    padding-left: 5rem;
+}
+
+.mad-tabs:not(.mad-tabs--unstyled) .mad-tabs-nav > span:not(:last-child) {
+    margin-right: 0;
+    margin-left: 2.5rem;
+}
+
+.mad-tabs.mad-tabs--style-2 .mad-tabs-nav > span:not(:last-child) {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+.mad-tabs.mad-tabs--tour-sections .mad-tabs-nav {
+    margin-right: 0;
+    margin-left: 2rem;
+}
+
+.mad-tabs.mad-tabs--tour-sections .mad-tabs-nav > span {
+    margin-left: 0!important;
+}
+
+[class*="btn"] > i {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.mad-dropcap > *:first-child:first-letter {
+    float: right;
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.mad-list--icon > li, .mad-entity-content ul:not(.mad-list--icon):not(.mad-list--unstyled) > li {
+    padding-left: 0;
+    padding-right: 2rem;
+}
+
+.mad-list--icon > li > .icon, .mad-entity-content ul:not(.mad-list--icon):not(.mad-list--unstyled) > li::before {
+    left: auto;
+    right: 1px;
+}
+
+input[type="checkbox"] + label[for], input[type="radio"] + label[for] {
+    padding-left: 0;
+    padding-right: 3.5rem;
+}
+
+input[type="checkbox"] + label[for]::before, 
+input[type="radio"] + label[for]::before {
+    left: auto;
+    right: 0;
+}
+
+input[type="checkbox"] + label[for]::after, 
+input[type="radio"] + label[for]::after {
+    left: auto;
+    right: 1px;
+}
+
+input[type="radio"] + label[for]::after {
+    left: auto;
+    right: 0.5rem;
+}
+
+.mad-custom-select .mad-selected-option {
+    padding-right: 1.25rem;
+    padding-left: 3.75rem;
+}
+
+.mad-custom-select .mad-selected-option::after, 
+.mad-custom-select .mad-selected-option::before {
+    right: auto;
+    left: 0.875rem;
+}
+
+/* -------------------- End of Shortcodes ---------------------*/
+
+/* -------------------- Content elements --------------------- */
+
+.shopping-cart {
+    text-align: right;
+}
+
+.mad-label {
+    left: auto;
+    right: 0;
+}
+
+.mad-products.mad-product-single .mad-product-calc .quantity {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+.mad-product-single .mad-product-info ul li span {
+    display: inline-block;
+}
+
+.rev-slider .mad-wave {
+    right: auto;
+    left: 0;
+}
+
+.mad-back-to-top {
+    right: auto;
+    left: 3.875rem;
+}
+
+.mad-hr-list ul li:not(:last-child):after{
+    right: auto;
+    left: 0;
+}
+
+.mad-hr-list ul li:not(:last-child) {
+    padding-right: 0;
+    padding-left: 0.9375rem;
+    margin-right: 0;
+    margin-left: 0.9375rem;
+}
+
+.mad-wave {
+    left: auto;
+    right: 0;
+    margin-left: 0;
+    margin-right: -4.375rem;
+}
+
+.mad-wave.type-2 {
+    right: auto;
+    left: 0;
+}
+
+.mad-wave.type-2 {
+    margin-right: 0;
+    margin-left: -4.375rem;
+}
+
+.mad-entities.type-2 .mad-wave {
+    margin-left: 0;
+    margin-right: -4.375rem;
+}
+
+.mad-entities.type-2 .mad-wave.style-2 {
+    margin-right: 0;
+    margin-left: -4.375rem;
+}
+
+.mad-dropdown-element.shopping-cart {
+    right: auto;
+    left: -3.5rem;
+    text-align: right;
+}
+
+.mad-dropdown-element {
+    left: auto;
+    right: 0;
+}
+
+.mad-products.mad-product-small .mad-product .mad-product-description {
+    padding-left: 0;
+    padding-right: 1.5rem;
+}
+
+.mad-section-side-title {
+    left: auto;
+    right: 0;
+}
+
+.row:not(.col-no-space) .mad-offset-left, .mad-offset-left {
+    padding-left: 0;
+    padding-right: 7.5rem;
+}
+
+.mad-section-side-title.right-side {
+    left: 0;
+    right: auto;
+}
+
+.row:not(.col-no-space) .mad-offset-right, .mad-offset-right {
+    padding-right: 0;
+    padding-left: 7.5rem;
+}
+
+.mad-instafeed:not(.style-2) .mad-grid:not(.mad-grid--no-gutters):not(.owl-carousel) .mad-col:nth-child(6) {
+    margin-left: 0;
+    margin-right: -7.5rem;
+}
+
+.mad-instafeed .mad-wave-item .mad-wave.type-2 {
+    margin-right: 0;
+    margin-left: -3rem;
+}
+
+.mad-newsletter-form.one-line input:not(:last-child) {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+.mad-our-info li i {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.mad-page-wrapper.with-side-menu .mad-section--stretched-content-no-px {
+    padding-left: 0;
+}
+
+.with-side-menu .mad-gallery .mad-gallery-item {
+    width: 25%;
+}
+
+.with-side-menu .mad-gallery .mad-gallery-item.x2 {
+    width: 50%;
+}
+
+.mad-event-date .mad-event-num {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.mad-calc .btn:not(.with-text) {
+    margin-left: 0;
+    margin-right: 0.25rem;
+}
+
+.videoPoster {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.mad-spec-item figure {
+    margin-right: 0;
+    margin-left: 1.5rem;
+}
+
+.with-svg-item.svg-right-side {
+    left: 0;
+    right: auto;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.with-svg-item {
+    left: auto;
+    right: 0;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.mad-tag-list li span {
+    padding-right: 0;
+    padding-left: 8px;
+}
+
+[class*="btn"] > i:not(:only-child):first-child {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+.mad-timetable.with-icons li i {
+    left: auto;
+    right: 0;
+}
+
+.mad-timetable.with-icons li {
+    padding-left: 0;
+    padding-right: 2rem;
+}
+
+.mad-events-nav form input {
+    padding-left: 18.75rem;
+    padding-right: 3.75rem;
+}
+
+.mad-events-nav form > .mad-custom-select {
+    right: auto;
+    left: 0;
+}
+
+.mad-events-nav form > .mad-custom-select .mad-selected-option {
+    border-right: 0;
+    margin-left: 0;
+    margin-right: 1rem;
+    border-left: 2px solid #e5e5e6;
+}
+
+.mad-event-menu .mad-dropdown-title > i {
+    margin-left: 0;
+    margin-right: 0.5rem;
+}
+
+.mad-event-arrows {
+    flex-direction: row-reverse;
+}
+
+.big-calendar.calendar_wrap table thead th, .big-calendar.calendar_wrap table tr td {
+    text-align: right;
+}
+
+.calendar_wrap.big-calendar .mad-abs-title .mad-event-title {
+    left: auto;
+    right: 0;
+    margin-left: 0;
+    margin-right: -1.5rem;
+}
+
+.mad-contact-form.mad-search input {
+    padding-right: 1.25rem;
+    padding-left: 3.5rem;
+}
+
+.mad-contact-form.mad-search button {
+    right: auto;
+    left: 1rem;
+}
+
+.mad-entities.mad-entity-hr .mad-entity .mad-entity-media {
+    margin-right: 0;
+    margin-left: 1.5rem;
+}
+
+.mad-share-wrap > span {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.mad-entity .mad-testimonial blockquote:after {
+    left: auto;
+    right: -2.625rem;
+}
+
+.mad-widget .recentcomments li {
+    padding-left: 0;
+    padding-right: 2rem;
+}
+
+.mad-widget .recentcomments li:before {
+    left: auto;
+    right: 0;
+}
+
+.mad-entity-link-element > i {
+    left: auto;
+    right: 2rem;
+}
+
+.mad-pagination > li > a.next i {
+    content: 'keyboard_arrow_left';
+}
+
+.mad-entities.single-entity .mad-entity .mad-testimonials {
+    float: right;
+    margin-right: 0;
+    margin-left: 2rem;
+}
+
+.tags-wrap > span {
+    padding-right: 0;
+    padding-left: 1rem;
+}
+
+.mad-page-nav > .mad-nav-right {
+    text-align: left;
+}
+
+.comment-author-info {
+    padding-left: 0;
+    padding-right: 6.125rem;
+}
+
+.comment-author-avatar {
+    float: right;
+    margin-right: 0;
+    margin-left: 1.25rem;
+}
+
+.mad-tt-element {
+    background-position: top left;
+}
+
+.mad-read-more.no-icon {
+    margin: 0;
+}
+
+@-moz-document url-prefix() {
+    .calendar_wrap.calendar-medium table td > a::before {
+        margin-left: -2rem;
+    }
+}
+
+/* ----------------- End of Content elements ----------------- */
+
+/* ------------------------- Footer -------------------------- */
+
+.mad-footer.style-2 {
+    padding-left: 0;
+    padding-right: 7.5rem;
+    background-position: left center;
+}
+
+.mad-footer.style-2 .copyrights {
+    text-align: right;
+}
+
+.with-side-menu .mad-footer.style-2:before {
+    background-position: bottom left;
+}
+
+.with-side-menu .mad-footer.style-2:after {
+    background-position: bottom left;
+}
+
+.mad-header.mad-header-aside:after,
+.mad-text-link i,
+.with-side-menu .mad-footer.style-2:after,
+.mad-pagination > li > a.mad-arrows i,
+.mad-page-nav > [class*="mad-nav-"]:before {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.calendar_wrap.big-calendar .mad-dropdown-element {
+    left: auto;
+    right: 100%;
+}
+
+.shopping-cart .mad-close-item {
+    right: auto;
+    left: 0;
+}
+
+/* ------------------------- End of Footer -------------------------- */
+
+/* ------------------------------------------------
+
+        4. Media queries
+
+------------------------------------------------ */
+
+/* RESPONSIVE */
+
+@media only screen and (max-width:1480px){
+
+    .mad-footer.style-2 {
+		background-position: bottom -140px left!important;
+	}
+
+}
+
+@media only screen and (min-width:1480px){
+
+    .mad-page-wrapper.with-side-menu .mad-half-section-wrap .mad-half-section {
+        width: 50%!important;
+    }
+
+}
+
+@media only screen and (max-width:1280px){
+
+    .mad-col-full .mad-offset-right.no-space {
+        padding-right: 0!important;
+        padding-left: 7.5rem!important;
+    }
+
+}
+
+@media only screen and (min-width:1200px){
+
+    .mad-sidebar:before {
+        left: auto!important;
+        right: 0!important;
+    }
+
+}
+
+@media only screen and (min-width:1024px){
+
+    .ms-right {
+        right: auto!important;
+        left: 0!important;
+    }
+
+    .ms-left {
+        right: 0!important;
+        left: auto!important;
+    }
+
+}
+
+@media only screen and (max-width:992px){
+
+    .mad-icon-boxes.align-right {
+        text-align: right!important;
+    }
+
+    .arcticmodal-close {
+        left: 0.5rem;
+    }
+
+    .mad-col-full .mad-offset-right.no-space {
+        padding-left: 0!important;
+    }
+
+}
+
+@media (min-width: 992px){
+
+    .calendar_wrap.big-calendar .mad-dropdown-element.left-side {
+        right: auto!important;
+        left: 100%!important;
+    }
+
+}
+
+@media only screen and (min-width:768px){
+
+
+}
+
+@media (max-width: 769px){
+
+    .mad-navigation .sub-menu .menu-item-has-children::after {
+        right: auto!important;
+        left: 2rem!important;
+    }
+
+    .mad-header.style-2 .mad-header-section .mad-header-items.item-col-3 > *:first-child {
+        text-align: left!important;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+    .mad-back-to-top {
+        right: auto!important;
+        left: 1rem!important;
+    }
+
+}

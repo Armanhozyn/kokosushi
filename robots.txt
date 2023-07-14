@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /ajaxsearch/fetch
+Disallow: /shopping_cart/load
+Disallow: /shopping_cart/clear
+
+Sitemap: https://www.kokorosushi.be/sitemap.xml

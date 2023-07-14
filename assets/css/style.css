@@ -1,0 +1,191 @@
+#product-item{
+    border-radius: 3px;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px #0000009e;
+    background: #fff;
+}
+#product-item .product-title{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    height: 26px;
+    overflow: hidden;
+}
+#product-item .product-thumb{
+    height: 100%;
+    width: 120%;
+    margin-left: -15px;
+    border-radius: 3px 0 0 3px;
+}
+
+#product-item .product-details{
+    border-radius: 3px 0 0 3px;
+    /*height: 52px;*/
+    /*overflow: hidden;*/
+    /*margin-bottom: 0;*/
+}
+#product-item .btn-cart{
+    margin-top: 5px;
+    /*width: 100%;*/
+    font-weight: 600;
+    font-size: 12px;
+}
+#product-item .price{
+text-align: center;   
+    font-weight: 800;
+    font-size: 23px;
+}
+
+#product-item{
+    /*background: url(../images/logo-transparent.png);*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cat {   
+    margin-top: 20px;
+    border-radius: 7px 7px 0 0;
+    box-shadow: 0px 0px 4px #000000a1;
+}
+.cat .cat-title{
+    padding: 5px 10px  6px  10px;
+    text-shadow: 1px 1px 3px #000000c2;
+}
+
+
+.nav-link {
+    font-weight: 700;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+     background: linear-gradient( #ff0018,#8e0e1b);
+}
+
+a{
+    color: #dc3545;
+}
+a:hover {
+    color: #a5212d;
+}
+.header{
+    padding: 10px;
+    /*margin-bottom: 20px;*/
+}
+.header .logo-box{
+    background: url(../images/kokorosushi-logo.png) no-repeat;
+    background-size: contain;
+}
+.header .logo{
+    opacity: 0;
+    width: 100%;
+}
+
+.header .container{
+    background: #fff url(../images/bg.gif);
+    /*box-shadow: 0px 0px 16px #000000b0;*/
+}
+
+.cat-nav{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000000a1;
+}
+.tab-content{
+    min-height: 550px;
+}
+footer{
+    margin-top: 20px;
+    border-top: 5px solid #dc3545;
+    padding: 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.bg-danger,.btn-danger {
+    background: linear-gradient( #ff0018,#8e0e1b);
+}
+.bg-success{
+    background: linear-gradient( #00bf07,#006307);
+}
+.btn-danger:hover {
+    background: linear-gradient( #8e0e1b,#ff0018);
+}
+.text-danger{
+  color:#ff0018!important;
+}
+.btn-search{
+    border-radius: 0 5px 5px 0!important;
+    cursor: pointer;    
+} 
+.search-btn-name{    
+    padding-left: 6px;
+}
+.search-btn-name::before {
+    content: "SEARCH";
+}
+.btn-cart-list{
+    width: 100%;
+}
+.hide{
+    display: none;
+}
+button:disabled{
+   background: black!important;
+   cursor: not-allowed;
+}
+
+button:disabled:hover {
+     background: black;    
+}
+.card-thumb{
+    margin-top: -1px;
+    height: 80px;
+    width: 120px;
+}
+
+.cart-expend{
+    width: 25px;margin-bottom: -1px;border-style: solid;border-width: 0px 25px 25px 25px;border-color: #f70118 #ffffff00;
+}
+.cart-quantity-value{
+    max-width: 62px;
+}
+
+table {
+    border:none!important;
+    box-shadow: 0 5px 10px #00000038;
+}
+.table-bordered th:first-child {
+    -moz-border-radius: 7px 0 0 0!important;
+    -webkit-border-radius: 7px 0 0 0!important;
+    border-radius: 7px 0 0 0!important;
+}
+.table-bordered th:last-child {
+    -moz-border-radius: 0 7px 0 0!important;
+    -webkit-border-radius: 0 7px 0 0!important;
+    border-radius: 0 7px 0 0!important;
+}
+.table-bordered th:only-child{
+    -moz-border-radius: 7px 7px 0 0!important;
+    -webkit-border-radius: 7px 7px 0 0!important;
+    border-radius: 7px 7px 0 0!important;
+}
+.table-bordered tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 7px!important;
+    -webkit-border-radius: 0 0 0 7px!important;
+    border-radius: 0 0 0 7px!important;
+}
+.table-bordered tr:last-child td:last-child {
+    -moz-border-radius: 0 0 7px 0!important;
+    -webkit-border-radius: 0 0 7px 0!important;
+    border-radius: 0 0 7px 0!important;
+} 
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+ 
+}
+@media (max-width: 767px) {
+
+  .search-btn-name::before {
+    content: "";
+  }
+}
