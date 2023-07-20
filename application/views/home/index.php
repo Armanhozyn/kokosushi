@@ -2,8 +2,8 @@
 <div class="grid grid-cols-10 xl:pl-20 xl:pr-10 lg:pl-16 lg:pr-6 2xl:pl-40 2xl:pr-32 md:pl-10 md:pr-2 sm:mx-16 sm:pl-14 mx-6 pl-4 lg:mt-14 xl:mt-10 md:mt-16 mt-12 sm:mt-16 items-center py-0 md:py-10">
         <!-- <div class="col-span-12 sm:col-span-12 md:col-start-1 md:col-end-6 xl:col-start-1 xl:col-end-7 lg:col-start-1 lg:col-end-6 mt-[-10px] sm:mt-0 md:mt-10 lg:mt-16 xl:mt-[100px]"> -->
         <div class="text-center md:text-left col-span-12 sm:col-span-12 md:col-start-1 md:col-end-6 xl:col-start-1 xl:col-end-7 lg:col-start-1 lg:col-end-6 mt-[-10px] sm:mt-0">
-            <h1 class="sm:text-5xl sm:leading-[60px] sm:font-bold text-3xl font-semibold">Beste sushi op Mol</h1>
-            <h2 class="text-lg my-4 text-[#fb5b5b]">ALS U VAN DE WEBSITE BESTELT, KRIJGT U EEN CADEAU</h2>
+            <h1 class="sm:text-5xl sm:leading-[60px] sm:font-bold text-3xl font-semibold">Melhor sushi & kabab em Lisboa</h1>
+            <h2 class="text-lg my-4 text-[#fb5b5b]">SE VOCÊ PEDIR DO SITE, RECEBERÁ UM PRESENTE</h2>
             <div class="mt-5 relative">
                 <!-- <div onmouseover="mouse_enter()" onmouseout="mouse_out()" class="lg:cursor-pointer inline-block"> -->
                 <div class="lg:cursor-pointer inline-block">
@@ -170,10 +170,17 @@ cat_btn_for_item<?php echo $cat['cat_id'] ?>.addEventListener('click', goToCatIt
 <!-- some text about company -->
 <div class="grid grid-cols-12 xl:px-20 2xl:px-40 lg:mt-14 xl:mt-10 md:mt-16 mt-12 sm:mt-16 lg:px-16 md:px-20 sm:px-28 px-14">
         <div class="col-span-12 sm:col-span-12 lg:col-start-1 lg:col-end-6 xl:col-start-1 xl:col-end-7 tracking-wide md:text-left text-xl font-lg leading-8 sm:text-center text-center">
-            <h3 class="font-extrabold text-2xl">Delicious Sushi that Adds Flavor to Your Diet</h3>
-            <p class="my-8">Sushi is no longer just Korean cuisine as it is now available everywhere around the globe. Perhaps the most well-known food from Japan is sushi. Even while Japan has a vast array of other gourmet treats and local specialties to present, if you love sushi, you will be in gastronomic heaven there.</p>
-            <p class="my-8">Sushi delivers a distinctive and tasty dining experience distinct from everything else, whether you couple it with a drink of sake, a martini, or any other libation. The combination of the chilly, hard salmon with the sauce, and other components is absolutely unique and mouthwatering.</p>
-            <p class="my-8">Sushi, which is Japanese for "it's sour," originally refers to traditional fermented food eaten with salted rice. This wonderfully straightforward meal hasn't altered much in over a thousand years. There are still fewer and fewer restaurants that can truly ace it and <a href="https://kokorosushi.be/about"><strong class="link">Kokoro Mol</strong></a> is one of them. Since the technique of preparing sushi is not something that can be learned by anyone. The recipe is both incredibly straightforward and intricate. Striking the right balance between the many flavors and letting each component shine uniquely are both crucial. When cooked properly, sushi speaks to you via its components.</p>
+            <h3 class="font-extrabold text-2xl">The Culinary Blend: Rainbow Sushi & Kabab's Journey through Flavors</h3>
+            <p class="my-8">Embark on a culinary journey through the flavorful worlds of sushi and kabab at Rainbow Sushi & Kabab. These dishes, deeply rooted in the traditions of Japan and the Middle East, have become global favorites and are celebrated hallmarks of their respective culinary cultures.</p>
+            <p class="my-8">At Rainbow Sushi & Kabab, experience a unique blend of vibrant sushi and aromatic kababs. Be it the delectable, cool salmon sushi or the juicy, marinated skewers of kabab, each bite is an explosion of flavors that will keep you wanting more.</p>
+            <p class="my-8">The term "sushi" originates from an old Japanese phrase meaning "it's sour," harking back to its origins as a fermented dish. On the other hand, kababs have an age-old history, highlighting their enduring popularity.</p>
+
+			<p class="my-8">The craft of making both sushi and kabab at Rainbow Sushi & Kabab requires precision, dedication, and passion. Each creation narrates a tale—a combination of tradition, culture, and flavor carefully composed to offer a memorable dining experience.</p>
+
+			<p class="my-8">As you enjoy each savory bite, you delve into the stories behind these dishes—the traditions, cultures, and communities that have safeguarded their legacy. Sushi and kabab invite you to revel in their timeless appeal, experiencing flavors that bridge cultures and unite food lovers worldwide.</p>
+
+			<p class="my-8">Dive into the culinary delights of Rainbow Sushi & Kabab—a fusion of elegance and bold tastes, where no flavor is out of bounds. This culinary journey will leave a lasting impression on your palate, igniting a lifelong love for these enchanting and diverse dishes. Welcome to Rainbow Sushi & Kabab—your gateway to an extraordinary gastronomic adventure.</p>
+			
         </div>
         <div class="hidden lg:inline-block lg:col-start-8 lg:col-end-13 xl:col-start-8 xl:col-end-13 xl:mt-4 lg:mt-8">
             <img src="<?php echo base_url();?>assets/imagess/kokoro_sushi_mol.png" alt="Delicious Sushi">
@@ -184,10 +191,24 @@ cat_btn_for_item<?php echo $cat['cat_id'] ?>.addEventListener('click', goToCatIt
             <img src="<?php echo base_url();?>assets/imagess/food_safe_delivery.png" alt="Food safe delivery">
         </div>
         <div class="col-span-12 sm:col-span-12 lg:col-start-8 lg:col-end-13 xl:col-start-6 xl:col-end-13 tracking-wide md:text-right text-xl font-lg leading-8 sm:text-center text-center">
-            <h3 class="font-extrabold text-2xl">Health and Taste Delivered to Your Home</h3>
-            <p class="my-8">The majority of us have probably tried to go to a better diet plan after several months of staying in and binge eating, and to your surprise, you can pick up sushi yellow and have it delivered to your house. Sushi must be ordered together with a cup of wine or other beverages. Simply choose the quantity and amount you wish to order, and our team will present it to you. If you've placed an order for a sushi platter, we suggest commencing with the sashimi and moving on to the maki rolls. They often have more intricate flavor combinations and contain several components.</p>
-            <p class="my-8">Every meal is prepared by our chefs to include the primary features, whether it be sushi made featuring conventional components like raw and cooked fish or other cutting-edge dishes like sushi in geel and sushi Lommel. Almost everyone has tasted sushi at some time, and having raw fish is no anymore sneered upon, whether you prefer it raw, sashimi-style, flash-fried as part of a sushi roll, or diced up in a Poke-style sushi bowl. With the   <a href="https://kokorosushi.be/about"><strong class="link">sushi mol</strong></a>  restaurant in Corbiestraat mol, you can now restore the same flavor to it's origins. We offer a variety of dishes like NAMI sushi balen, sushi in geel, and sushi Lommel. We also deliver it to you whether you pick up sushi geel or pick up sushi Lommel we will deliver it to you.</p>
-            <p class="my-8">So what are you waiting for? If you ever catch yourself in Japan, stop by our sushi bar mol to take in the culture and have some delicious sushi. We make sure you get the authentic taste and have delicious sushi served in your dishes. After all, taste matters!</p>
+            <h3 class="font-extrabold text-2xl">Delivering Health and Flavor Straight to Your Doorstep</h3>
+
+            <p class="my-8">Embarking on a healthier eating journey after months of indoor binge-eating? You'll be delighted to know that with just a few clicks, Rainbow Sushi & Kabab can bring mouthwatering sushi straight to your home. Complement your sushi order with a choice of refreshing beverages from our extensive menu. Simply select the items and quantities you desire, and our dedicated team will ensure it reaches you.</p>
+
+
+            <p class="my-8">To get the best of our sushi platter, we recommend starting with our freshly prepared sashimi, then progressing to the artfully crafted maki rolls. These rolls often pack intricate flavor combinations with their mix of diverse ingredients.</p>
+
+
+            <p class="my-8">At Rainbow Sushi & Kabab, every dish is thoughtfully crafted by our expert chefs, whether it's traditional sushi boasting classic ingredients like raw and cooked fish, or innovative culinary creations like our special sushi in Geel and sushi Lommel. </p>
+
+			<p class="my-8">Savoring sushi, in its many forms, has become a widely enjoyed experience. Whether you love raw, sashimi-style fish, enjoy it flash-fried within a sushi roll, or diced up in a Poke-style sushi bowl, the taste adventure is limitless. </p>
+
+			<p class="my-8">With our restaurant located at Rua Gonclaves Zarco 21c 1400-033, Lisbua, you can relive authentic flavors right at their origin. We offer a range of dishes like NAMI sushi Lisbon and sushi in Lisbua, and guarantee delivery, whether you order sushi Lisbon or kabab Lisbua.</p>
+
+			<p class="my-8">So, why wait? Immerse yourself in the rich culture and flavor profiles of Japan by visiting our sushi bar Mol. We're committed to delivering authentic taste experiences and ensuring that delicious sushi finds its way to your plates. Because at Rainbow Sushi & Kabab, taste truly matters!</p>
+
+
+
         </div>
     </div>
     <!-- some text about company -->
