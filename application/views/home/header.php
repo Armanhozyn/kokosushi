@@ -467,7 +467,7 @@
               <div class="mb-[12px] flex items-center justify-center">
                 <div class="text-[14px] md:text-[14px]">Call or WhatsApp us : +3214872578
                   <a target="_blank"
-                    href="https://api.whatsapp.com/send?phone=+320484550510&text=Hi%2C+I+placed+an+order+%F0%9F%91%87%0A%0A%F0%9F%9B%B5%F0%9F%94%9C%F0%9F%8F%A1%0A%2ADelivery+Order+No%3A+<?php echo "%23" . $this->session->flashdata('order_id') ?>%2A%0A%0A---------%0A%F0%9F%97%92+Total%3A <?php echo "" . $this->session->flashdata('total_price'); ?>%0A%F0%9F%9B%B5+Delivery Method%3A <?php echo $this->session->flashdata('method') ?>"
+                    href="https://api.whatsapp.com/send?phone=+351920449737&text=Hi%2C+I+placed+an+order+%F0%9F%91%87%0A%0A%F0%9F%9B%B5%F0%9F%94%9C%F0%9F%8F%A1%0A%2ADelivery+Order+No%3A+<?php echo "%23" . $this->session->flashdata('order_id') ?>%2A%0A%0A---------%0A%F0%9F%97%92+Total%3A <?php echo "" . $this->session->flashdata('total_price'); ?>%0A%F0%9F%9B%B5+Delivery Method%3A <?php echo $this->session->flashdata('method') ?>"
                     class="ml-[10px] cursor-pointer"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
                 <!-- <a target="_blank" href="https://api.whatsapp.com/send?phone=+320484550510&text=<?php echo "%23" . $this->session->flashdata('order_id') . ", Price: " . $this->session->flashdata('total_price'); ?>" class="ml-[10px] cursor-pointer"><i class="fa-brands fa-whatsapp"></i></a> -->

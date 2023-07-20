@@ -476,7 +476,7 @@
     </div>
     <div class="footer-end bg-[#ea2227] md:flex md:justify-around md:px-16 lg:px-36 py-3">
         <p class="text-white uppercase text-center text-sm">&copy; <?php echo date("Y") - 1; ?> -
-            <script type="text/javascript">document.write(new Date().getFullYear());</script> Kokoro Sushi all right
+            <script type="text/javascript">document.write(new Date().getFullYear());</script> Rainbow Sushi all right
             reserved
         </p>
         <p class="text-white uppercase text-center text-sm lg:text-base">developrd by: <a class="lg:cursor-pointer"
