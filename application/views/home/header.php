@@ -7,7 +7,7 @@
     <?php if (isset($meta_title)){
       echo $meta_title;
     } else {
-      echo 'Sushi Mol Kokoro - Bestel Online Official';} ?>
+      echo 'Rainbow Sushi Mol - Bestel Online Official';} ?>
   </title>
 
 
@@ -28,7 +28,7 @@
   
 
   <!-- ==============OG=================== -->
-  <meta property="og:title" content="Sushi Mol Kokoro - Bestel Online Official">
+  <meta property="og:title" content="Rainbow Sushi Mol - Bestel Online Official">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://kokorosushi.be/">
   <meta property="og:image" content="https://kokorosushi.be/assets/images/sushi_mol.png">

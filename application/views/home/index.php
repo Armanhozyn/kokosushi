@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="inline-block col-span-12 mt-4 md:inline-block md:col-start-8 md:col-end-11 xl:col-start-8 xl:col-end-10 lg:col-start-9 lg:col-end-12 lg:scale-110 xl:scale-125 md:mt-0">
-            <img src="<?php echo base_url();?>assets/images/sushi_mol.png" class="w-44 m-auto md:m-0 md:w-72" alt="sushi mol">
+            <img src="<?php echo base_url();?>assets/images/rainbow_sushi_mol.png" class="w-44 m-auto md:m-0 md:w-72" alt="rainbowsushi mol">
         </div>
     </div>
     <!-- bannar -->
