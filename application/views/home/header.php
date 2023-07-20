@@ -438,12 +438,12 @@
     <div class="grid grid-cols-6 justify-evenly bg-[#ea2227] text-white py-[2px] text-sm font-medium">
       <div class="sm:col-span-3 col-span-6 text-[11px] font-light" style="text-align: center">
         <a style="color: #ffffff;" href="callto:+3214872578">
-          <h2> <i class="fa fa-phone">&nbsp; + 32 14 872 578</i> </h2>
+          <h2> <i class="fa fa-phone">&nbsp; +351 920 449 737</i> </h2>
         </a>
       </div>
       <div class="sm:col-span-3 col-span-6 sm:mt-0 mt-1 flex justify-center" style="text-align: center">
         <span style="color: #ffffff;" class="mr-5">
-          <h2> <i class="fa fa-map-marker-alt"></i> &nbsp;Corbiestraat 21 - 2400 Mol, Belgium </h2>
+          <h2> <i class="fa fa-map-marker-alt"></i> &nbsp;Rua Gonclaves Zarco 21c 1400-033,Lisbua, bloco1 Loja3 </h2>
         </span>
 
       </div>
