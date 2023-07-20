@@ -497,7 +497,7 @@
           <li class="float-left hover:text-[#fb5b5b] duration-200 cursor-pointer"><a
               href="<?php echo base_url(); ?>chef">Chef</a></li>
           <li class="float-left hover:text-[#fb5b5b] duration-200 cursor-pointer"><a
-              href="https://goo.gl/maps/TZNBVSd3YV1WnNiZ9/review" target="_blank" style="
+              href="https://goo.gl/maps/TZNBVSd3YV1WnNiZ9" target="_blank" style="
                 display: flex;
             ">Feedback Please<img src="https://www.kokorosushi.be//assets/images/good-sushi-review.svg"
                 style="width:100px;margin-left: 6px;" alt="star"></a></li>
