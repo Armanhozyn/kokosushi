@@ -149,13 +149,15 @@
             <div class="col-span-10 sm:col-span-5 mt-6">
                 <div class="tracking-wide font-bold lg:text-2xl text-center text-white font-rou md:text-xl text-lg">
                     <h2 class="uppercase pb-5">Contact information</h2>
-                    <h2 class="text-base uppercase md:text-lg lg:text-xl">Corbiestraat 21</h2>
-                    <h2 class="text-base uppercase md:text-lg lg:text-xl">2400 mol, belgium</h2>
-                    <h2 class="text-base uppercase md:text-lg lg:text-xl">phone:+32 14 872 578 , 014872578</h2>
+                    <h2 class="text-base uppercase md:text-lg lg:text-xl">Rua Gonclaves Zarco 21c 1400-033</h2>
+                    <h2 class="text-base uppercase md:text-lg lg:text-xl">Lisbua, bloco1 Loja3</h2>
+                    <h2 class="text-base uppercase md:text-lg lg:text-xl">phone:+351 920449737 , +351 215956638</h2>
                 </div>
                 <iframe class="lg:mt-14 xl:mt-10 md:mt-16 mt-6 sm:mt-16" width="100%" height="300" frameborder="0"
                     scrolling="no" marginheight="0" marginwidth="0"
-                    src="https://maps.google.com/maps?width=100%25&amp;height=350&amp;hl=en&amp;q=CORBIESTRAAT%2021%202400%20MOL,%20BELGIUM+(Kokorosushi%20&amp;%20Bento)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.661060811161!2d-9.211052717566519!3d38.702629198967685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ecb5bfea7e0a7%3A0x88c00102d705b707!2sR.%20Gon%C3%A7alves%20Zarco%2021c%201%2C%201400-033%20Lisboa%2C%20Portugal!5e0!3m2!1sen!2sbd!4v1689836247043!5m2!1sen!2sbd"></iframe>
+
+					<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.661060811161!2d-9.211052717566519!3d38.702629198967685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ecb5bfea7e0a7%3A0x88c00102d705b707!2sR.%20Gon%C3%A7alves%20Zarco%2021c%201%2C%201400-033%20Lisboa%2C%20Portugal!5e0!3m2!1sen!2sbd!4v1689836247043!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
             </div>
         </div>
         <!-- <div class="grid grid-cols-10 gap-x-6 mt-20"> -->
