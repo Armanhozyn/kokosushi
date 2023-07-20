@@ -452,7 +452,7 @@
 
 
         <!-- </div>         -->
-        <div class="footer-mid lg:mt-14 xl:mt-10 md:mt-16 mt-6 sm:mt-16 lg:pb-14 xl:pb-10 md:pb-16 pb-12 sm:pb-16">
+        <!-- <div class="footer-mid lg:mt-14 xl:mt-10 md:mt-16 mt-6 sm:mt-16 lg:pb-14 xl:pb-10 md:pb-16 pb-12 sm:pb-16">
             <h2 class="uppercase text-white text-center md:text-lg lg:text-xl font-semibold pb-2">restaurant
                 corbiestraat mol</h2>
 
@@ -471,7 +471,7 @@
                             class="w-[50px] h-[50px] md:w-[50px] sm:w-[40px] sm:h-[40px] md:h-[50px] xl:w-[90px] lg:w-[70px] xl:h-[90px] lg:h-[70px]"
                             src="<?php echo base_url(); ?>assets/imagess/Uber eats-01.png" alt="uber_eat"></a></i>
             </div>
-        </div>
+        </div> -->
 
     </div>
     <div class="footer-end bg-[#ea2227] md:flex md:justify-around md:px-16 lg:px-36 py-3">
