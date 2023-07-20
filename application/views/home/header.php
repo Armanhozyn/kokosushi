@@ -4,10 +4,8 @@
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>
-    <?php if (isset($meta_title)){
-      echo $meta_title;
-    } else {
-      echo 'Rainbow Sushi Mol - Bestel Online Official';} ?>
+    <?php 
+      echo 'Rainbow Sushi Mol - Bestel Online Official';?>
   </title>
 
 
@@ -45,33 +43,35 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/animate.min.css">
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="<?php echo base_url(); ?>assets/images/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="<?php echo base_url(); ?>assets/images/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url(); ?>assets/images/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url(); ?>assets/images/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114"
-    href="<?php echo base_url(); ?>assets/images/favicon/apple-icon-114x114.png">
+  <!-- <link rel="apple-touch-icon" sizes="57x57" href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png"> -->
+  <!-- <link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png"> -->
+  <!-- <link rel="apple-touch-icon" sizes="114x114"
+    href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png">
   <link rel="apple-touch-icon" sizes="120x120"
-    href="<?php echo base_url(); ?>assets/images/favicon/apple-icon-120x120.png">
+    href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png">
   <link rel="apple-touch-icon" sizes="144x144"
-    href="<?php echo base_url(); ?>assets/images/favicon/apple-icon-144x144.png">
+    href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png">
   <link rel="apple-touch-icon" sizes="152x152"
-    href="<?php echo base_url(); ?>assets/images/favicon/apple-icon-152x152.png">
+    href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png">
   <link rel="apple-touch-icon" sizes="180x180"
-    href="<?php echo base_url(); ?>assets/images/favicon/apple-icon-180x180.png">
+    href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png">
   <link rel="icon" type="image/png" sizes="192x192"
-    href="<?php echo base_url(); ?>assets/images/favicon/android-icon-192x192.png">
+    href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png">
   <link rel="icon" type="image/png" sizes="144x144"
-    href="<?php echo base_url(); ?>assets/images/favicon/android-icon-144x144.png">
+    href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png">
   <link rel="icon" type="image/png" sizes="32x32"
-    href="<?php echo base_url(); ?>assets/images/favicon/favicon-32x32.png">
+    href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png">
   <link rel="icon" type="image/png" sizes="96x96"
-    href="<?php echo base_url(); ?>assets/images/favicon/favicon-96x96.png">
+    href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png">
   <link rel="icon" type="image/png" sizes="16x16"
-    href="<?php echo base_url(); ?>assets/images/favicon/favicon-16x16.png">
-  <link rel="manifest" href="<?php echo base_url(); ?>assets/images/favicon/manifest.json">
+    href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png"> -->
+  <!-- <link rel="manifest" href="<?php echo base_url(); ?>assets/images/favicon/manifest.json"> -->
+	<link rel="icon" type="image/png" sizes="220x220"
+    href="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol.png">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="<?php echo base_url(); ?>assets/images/favicon/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="<?php echo base_url(); ?>assets/images/rainbow_sushi_mol">
   <meta name="theme-color" content="#ffffff">
   <script src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
 
