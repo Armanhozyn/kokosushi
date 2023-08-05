@@ -186,7 +186,7 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 4%, rgba(255,248,237,1) 
 <h3>Health and Taste Delivered to Your Home </h3>
 <p>The majority of us have probably tried to go to a better diet plan after several months of staying in and binge eating, and to your surprise, you can pick up sushi yellow and have it delivered to your house. Sushi must be ordered together with a cup of wine or other beverages. Simply choose the quantity and amount you wish to order, and our team will present it to you. If you've placed an order for a sushi platter, we suggest commencing with the sashimi and moving on to the maki rolls. They often have more intricate flavor combinations and contain several components.</p>
 
-<p>Every meal is prepared by our chefs to include the primary features, whether it be sushi made featuring conventional components like raw and cooked fish or other cutting-edge dishes like sushi in geel and sushi Lommel. Almost everyone has tasted sushi at some time, and having raw fish is no anymore sneered upon, whether you prefer it raw, sashimi-style, flash-fried as part of a sushi roll, or diced up in a Poke-style sushi bowl. With the sushi mole restaurant in Corbiestraat mol, you can now restore the same flavor to its origins. We offer a variety of dishes like NAMI sushi balen, sushi in geel, and sushi Lommel. We also deliver it to you whether you pick up sushi geel or pick up sushi Lommel we will deliver it to you.</p>
+<p>Every meal is prepared by our chefs to include the primary features, whether it be sushi made featuring conventional components like raw and cooked fish or other cutting-edge dishes like sushi in RESTELO and sushi Lommel. Almost everyone has tasted sushi at some time, and having raw fish is no anymore sneered upon, whether you prefer it raw, sashimi-style, flash-fried as part of a sushi roll, or diced up in a Poke-style sushi bowl. With the sushi mole restaurant in Corbiestraat mol, you can now restore the same flavor to its origins. We offer a variety of dishes like NAMI sushi balen, sushi in RESTELO, and sushi Lommel. We also deliver it to you whether you pick up sushi RESTELO or pick up sushi Lommel we will deliver it to you.</p>
 
 <p>So what are you waiting for? If you ever catch yourself in Japan, stop by our sushi bar mol to take in the culture and have some delicious sushi. We make sure you get the authentic taste and have delicious sushi served in your dishes. After all, taste matters!</p>
 </div>
@@ -320,7 +320,7 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 4%, rgba(255,248,237,1) 
     </div>
 	<div class="row" style="margin-top: 50px !important;">
 		<div class="col-md-12" style="text-align: justify-all;">
-          <h2 style="font-size: 4vh">ORDER SUSHI MOL, GEEL, LOMMEL, BALEN, DESSEL, KASTERLEE, MEERHOUT</h2>
+          <h2 style="font-size: 4vh">ORDER BELEM, RESTELO, LOMMEL, BALEN, DESSEL, KASTERLEE, MEERHOUT</h2>
 			<p style="padding: 10px; text-transform: none;">As you enter our restaurant, you can see our chefs in action in the open
 kitchen. We carefully select all our staff members based on their outstanding
 abilities, Character, and personal qualities. From the waiter to the Chef,

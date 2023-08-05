@@ -6,8 +6,8 @@
     <title>KOKORO SUSHI & BENTO</title>
     <meta charset="UTF-8">
     <meta name="author" content="Rafaet Hossain">
-    <meta name="keywords" content="shushi,bento, belgium,geel,restaurant">
-    <meta name="description" content="Sushi restaurant in Geel, Belgium">
+    <meta name="keywords" content="shushi,bento, belgium,RESTELO,restaurant">
+    <meta name="description" content="Sushi restaurant in RESTELO, Belgium">
     <!--================ Mobile specific metas ================-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--================ Favicon ================-->

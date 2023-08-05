@@ -65,7 +65,7 @@
 
 <!-- before footer section -->
     <!-- <div class="grid grid-cols-12 text-center px-7 sm:px-10 md:px-16 lg:mt-14 xl:mt-10 md:mt-16 mt-12 sm:mt-16">
-        <p class="col-span-12 sm:col-start-1 sm:col-end-13 lg:text-xl font-semibold font-rou md:text-base lg:col-start-3 lg:col-end-11">ORDER SUSHI MOL, GEEL, LOMMEL, BALEN, DESSEL, KASTERLEE, MEERHOUT</p>
+        <p class="col-span-12 sm:col-start-1 sm:col-end-13 lg:text-xl font-semibold font-rou md:text-base lg:col-start-3 lg:col-end-11">ORDER BELEM, RESTELO, LOMMEL, BALEN, DESSEL, KASTERLEE, MEERHOUT</p>
         <p class="text-center col-span-12 tracking-wider leading-8 text-xl xl:col-start-2 xl:col-end-12 lg:col-start-3 lg:col-end-11 my-8 sm:col-start-2 sm:col-end-12">As you enter our restaurant, you can see our chefs in action in the open kitchen. We carefully select all our staff members based on their outstanding abilities, Character, and personal qualities. From the waiter to the Chef, they will offer you the best possible sushi experience. KokoroSushi is one of Mol's top sushi restaurants. All our dishes are carefully prepared with high-quality products. Our highest priority is to provide you with the best possible dining experience. That is why we prepare all our dishes fresh and low in calories: that is how the favors come to dishes.</p>
     </div> -->
     <!-- before footer section -->
@@ -140,7 +140,7 @@
         <!-- <div class="grid grid-cols-10 gap-x-6 mt-20"> -->
             
         <div class="text-white text-center lg:mt-14 xl:mt-10 md:mt-16 mt-6 sm:mt-16 col-span-10 sm:col-span-5">
-        <h2 class="lg:text-2xl font-semibold font-rou md:text-xl text-lg">ORDER SUSHI MOL, GEEL, LOMMEL, BALEN, DESSEL, KASTERLEE, MEERHOUT</h2>
+        <h2 class="lg:text-2xl font-semibold font-rou md:text-xl text-lg">ORDER BELEM, RESTELO, LOMMEL, BALEN, DESSEL, KASTERLEE, MEERHOUT</h2>
         <p class="text-center tracking-wider leading-8 lg:text-xl md:text-lg text-base mt-6">As you enter our restaurant, you can see our chefs in action in the open kitchen. We carefully select all our staff members based on their outstanding abilities, Character, and personal qualities. From the waiter to the Chef, they will offer you the best possible sushi experience. KokoroSushi is one of Mol's top sushi restaurants. All our dishes are carefully prepared with high-quality products. Our highest priority is to provide you with the best possible dining experience. That is why we prepare all our dishes fresh and low in calories: that is how the favors come to dishes.</p>
     </div>
     <div class="lg:mt-14 xl:mt-10 md:mt-16 mt-6 sm:mt-16 footer-top text-white lg:text-lg col-span-12">

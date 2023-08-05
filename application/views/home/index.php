@@ -27,7 +27,7 @@
 		color: #c6071a;
 		font-size: 18px;
 		font-family: sans-serif;
-		text-transform: uppercase;">Pickup (afhalen) 10% korting</h2>
+		text-transform: uppercase;">RETIRADA (PICKUP) 10% DE DESCONTO</h2>
 	</div>
 
     <div class="m-auto relative w-[70%] sm:w-1/2 mt-4">
@@ -199,7 +199,7 @@ cat_btn_for_item<?php echo $cat['cat_id'] ?>.addEventListener('click', goToCatIt
             <p class="my-8">To get the best of our sushi platter, we recommend starting with our freshly prepared sashimi, then progressing to the artfully crafted maki rolls. These rolls often pack intricate flavor combinations with their mix of diverse ingredients.</p>
 
 
-            <p class="my-8">At Rainbow Sushi & Kabab, every dish is thoughtfully crafted by our expert chefs, whether it's traditional sushi boasting classic ingredients like raw and cooked fish, or innovative culinary creations like our special sushi in Geel and sushi Lommel. </p>
+            <p class="my-8">At Rainbow Sushi & Kabab, every dish is thoughtfully crafted by our expert chefs, whether it's traditional sushi boasting classic ingredients like raw and cooked fish, or innovative culinary creations like our special sushi in RESTELO and sushi Lommel. </p>
 
 			<p class="my-8">Savoring sushi, in its many forms, has become a widely enjoyed experience. Whether you love raw, sashimi-style fish, enjoy it flash-fried within a sushi roll, or diced up in a Poke-style sushi bowl, the taste adventure is limitless. </p>
 
