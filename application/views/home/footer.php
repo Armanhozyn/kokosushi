@@ -97,52 +97,52 @@
                     class="text-lg z-10 font-semibold lg:gap-y-5 md:gap-y-[14px] grid relative gap-y-[4px] sm:gap-y-[12px]">
                     <div
                         class="z-10 bg-white flex justify-center rounded-full space-x-2 px-[15px] py-[6px] sm:space-x-4 md:px-[20px] md:py-[12px] md:space-x-4 lg:px-7 lg:py-4 lg:space-x-10">
-                        <p class='w-[25%]'>MONDAY</p>
-                        <p class='w-[25%]'>3:00 pm</p>
+                        <p class='w-[25%]'>SUNDAY</p>
+                        <p class='w-[25%]'>11:30 am</p>
                         <P class='w-[25%]'>-</P>
-                        <p class='w-[25%]'>10:00 pm</p>
+                        <p class='w-[25%]'>11:00 pm</p>
                     </div>
                     <div
                         class="text-lg z-10 bg-white  flex justify-center rounded-full space-x-2 px-[15px] py-[6px] sm:space-x-4 md:px-[20px] md:py-[12px] md:space-x-4 lg:px-7 lg:py-4 lg:space-x-10">
-                        <p class='w-[25%]'>TUESDAY</p>
-                        <p class='w-[25%]'>3:00 pm</p>
+                        <p class='w-[25%]'>MONDAY</p>
+						<p class='w-[25%]'>11:30 am</p>
                         <P class='w-[25%]'>-</P>
-                        <p class='w-[25%]'>10:00 pm</p>
+                        <p class='w-[25%]'>11:00 pm</p>
                     </div>
                     <div
                         class="text-lg z-10 bg-white flex justify-evenly rounded-full space-x-2 px-[15px] py-[6px] sm:space-x-4 md:px-[20px] md:py-[12px] md:space-x-4 lg:px-7 lg:py-4 lg:space-x-10">
-                        <p class='w-[25%]'>WEDNESDAY</p>
-                        <p class='w-[25%]'>3:00 pm</p>
+                        <p class='w-[25%]'>TUESDAY</p>
+						<p class='w-[25%]'>11:30 am</p>
                         <P class='w-[25%]'>-</P>
-                        <p class='w-[25%]'>10:00 pm</p>
+                        <p class='w-[25%]'>11:00 pm</p>
                     </div>
                     <div
                         class="text-lg z-10 text-[#ff3131] bg-white flex justify-between rounded-full space-x-2 px-[15px] py-[6px] sm:space-x-4 md:px-[20px] md:py-[12px] md:space-x-4 lg:px-7 lg:py-4 lg:space-x-10">
-                     	<p class='w-[25%]'></p>
-                        <p class='w-[25%]'>THURSDAY</p>
-                        <P class='w-[25%]'>Closed</P>
-                        <p class='w-[25%]'></p>
+						<p class='w-[25%]'>WEDNESDAY</p>
+						<p class='w-[25%]'>11:30 am</p>
+                        <P class='w-[25%]'>-</P>
+                        <p class='w-[25%]'>11:00 pm</p>
                     </div>
                     <div
                         class="text-lg z-10 bg-white flex justify-evenly rounded-full space-x-2 px-[15px] py-[6px] sm:space-x-4 md:px-[20px] md:py-[12px] md:space-x-4 lg:px-7 lg:py-4 lg:space-x-10">
-                        <p class='w-[25%]'>FRIDAY</p>
-                        <p class='w-[25%]'>3:00 pm</p>
+                        <p class='w-[25%]'>THURSDAY</p>
+						<p class='w-[25%]'>11:30 am</p>
                         <P class='w-[25%]'>-</P>
-                        <p class='w-[25%]'>10:00 pm</p>
+                        <p class='w-[25%]'>11:00 pm</p>
                     </div>
                     <div
                         class=" text-lg z-10 bg-white flex justify-evenly rounded-full space-x-2 px-[15px] py-[6px] sm:space-x-4 md:px-[20px] md:py-[12px] md:space-x-4 lg:px-7 lg:py-4 lg:space-x-10">
-                        <p class='w-[25%]'>SATURDAY</p>
-                        <p class='w-[25%]'>01:00 pm</p>
+						<p class='w-[25%]'>FRIDAY</p>
+						<p class='w-[25%]'>11:30 am</p>
                         <P class='w-[25%]'>-</P>
-                        <p class='w-[25%]'>10:00 pm</p>
+                        <p class='w-[25%]'>11:00 pm</p>
                     </div>
                     <div
                         class="text-lg z-10 bg-white flex justify-evenly rounded-full space-x-2 px-[15px] py-[6px] sm:space-x-4 md:px-[20px] md:py-[12px] md:space-x-4 lg:px-7 lg:py-4 lg:space-x-10">
-                        <p class='w-[25%]'>SUNDAY</p>
-                        <p class='w-[25%]'>01:00 pm</p>
+                        <p class='w-[25%]'>SATURDAY</p>
+						<p class='w-[25%]'>11:30 am</p>
                         <P class='w-[25%]'>-</P>
-                        <p class='w-[25%]'>10:00 pm</p>
+                        <p class='w-[25%]'>11:00 pm</p>
                     </div>
                 </div>
             </div>
