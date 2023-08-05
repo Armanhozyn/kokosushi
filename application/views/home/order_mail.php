@@ -113,7 +113,7 @@
 					<tr>
 						<td class="container-padding content" align="left" style="padding-left:24px;padding-right:24px;padding-top:12px;padding-bottom:12px;background-color:#ffffff">
 							<br>
-							<div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Order from: kokorosushi.be</div>
+							<div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Order from: rainbowsushi.pt</div>
 							<br>
 							<div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Order Details</div>
 							<br>
@@ -266,20 +266,20 @@
 					<tr>
 						<td class="container-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:16px;color:#aaaaaa;padding-left:24px;padding-right:24px">
 							<br><br>
-							Copyright: © <?php echo date('Y'); ?> KOKORO SUSHI & BENTO.
+							Copyright: © <?php echo date('Y'); ?> RAINBOW SUSHI Encomendar Online Oficial.
 							<br><br>
 
 
 
-							<strong>KOKORO SUSHI & BENTO.</strong><br>
+							<strong>RAINBOW SUSHI Encomendar Online Oficial.</strong><br>
 							<span class="ios-footer">
 								Corbiestraat 21 - 2400 Mol<br>
 								+ 32 14 872 587<br>
-								kokorosushimol2400@gmail.com<br>
+								rainbowsushi03@gmail.com<br>
 
 							</span>
 
-							<a href="https://www.kokorosushi.be/" style="color:#aaaaaa">www.kokorosushi.be</a><br>
+							<a href="https://www.rainbowsushi.pt/" style="color:#aaaaaa">www.rainbowsushi.pt</a><br>
 
 							<br><br>
 

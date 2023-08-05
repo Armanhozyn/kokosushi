@@ -5,7 +5,7 @@
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>
     <?php 
-      echo 'Rainbow Sushi Mol - Bestel Online Official';?>
+      echo 'Rainbow Sushi Mol - Encomendar Online Oficial';?>
   </title>
 
 
@@ -19,19 +19,20 @@
   <link rel="canonical" href="<?php if (isset($meta_canonical) ) {
     echo $meta_canonical;
   } else {
-    echo 'https://kokorosushi.be/';} ?>" />
+    echo 'https://rainbowsushi.pt/';} ?>" />
 
 
 
   
 
   <!-- ==============OG=================== -->
-  <meta property="og:title" content="Rainbow Sushi Mol - Bestel Online Official">
+  <meta property="og:title" content="Rainbow Sushi Mol - Encomendar Online Oficial">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://kokorosushi.be/">
-  <meta property="og:image" content="https://kokorosushi.be/assets/images/sushi_mol.png">
+  <meta property="og:url" content="https://rainbowsushi.pt/">
+  <meta property="og:image" content="https://rainbowsushi.pt/assets/images/rainbow_sushi_mol.png">
+  <!--<meta property="og:description" content="Beste Sushi Mol, heerlijke sushi gerechten zijn sushi combo's, broodjes en nigiri met saus. afhalen, Take Away">-->
   <meta property="og:description" content="Beste Sushi Mol, heerlijke sushi gerechten zijn sushi combo's, broodjes en nigiri met saus. afhalen, Take Away">
-  <meta property="og:site_name" content="Kokorosushi">
+  <meta property="og:site_name" content="Rainbowsushi">
   <!-- ==============OG=================== -->
   
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/idea_style.css">

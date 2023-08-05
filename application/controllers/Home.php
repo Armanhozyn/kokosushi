@@ -38,7 +38,7 @@ class Home extends CI_Controller
     public function chef()
     {
         $page_data['page_name'] = 'chef';
-        $page_data['meta_title'] = "Sushi Mol Kokoro - Mol: Sushi Restaurant and Japanese Cuisine in Mol";
+        $page_data['meta_title'] = "Sushi Mol Kokoro - Mol: Sushi Restaurant and Japanese Cuisinein Mol";
         $page_data['meta_canonical'] = "https://kokorosushi.be/chef";
         $page_data['meta_description'] = "Sushi Mol Kokoro Restaurant in Mol serveert verse en lekkere sushi. Een verscheidenheid aan authentieke Japanse gerechten, waaronder verse sushi, staan op ons menu. Wij serveren de beste Japanse gerechten in ons restaurant. Afhalen en bezorgen zijn mogelijk voor sushi. Het beste sushirestaurant in Mol en de Japanse keuken";
         $page_data['meta_keywords'] = "kokoro mol, nami sushi balen, nami sushi mol, restaurant corbiestraat mol, sushi bar mol, sushi geel afhalen, sushi in geel, sushi lommel, sushi lommel afhalen, sushi mol corbiestraat, sushi restaurant geel, sushi restaurant mol, Sushi mol.";
@@ -311,9 +311,9 @@ class Home extends CI_Controller
                                        'Name' => 'Kokoro Sushi Mol']
                                    ],$subject, $this->load->view('home/order_mail',$pdata,true));*/
 
-                    $send = $this->mailer->send($from, "kokorosushimol2400@gmail.com", $subject, $this->load->view('home/order_mail', $pdata, true));
+                    $send = $this->mailer->send($from, "rainbowsushi03@gmail.com", $subject, $this->load->view('home/order_mail', $pdata, true));
                     $send = $this->mailer->send($from, "armanhossen591@gmail.com", $subject, $this->load->view('home/order_mail', $pdata, true));
-                    $send = $this->mailer->send($from, "shamimislam@rafusoft.com", $subject, $this->load->view('home/order_mail', $pdata, true));
+                    $send = $this->mailer->send($from, "info@rafusoft.com", $subject, $this->load->view('home/order_mail', $pdata, true));
                     /*$send = $this->mailjet->send($from,	[					[
                                        'Email' => "rafusoft@gmail.com",
                                        'Name' => 'Rafusoft']
