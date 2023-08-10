@@ -5,7 +5,7 @@
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>
     <?php 
-      echo 'Rainbow Sushi Mol - Encomendar Online Oficial';?>
+      echo 'Rainbow Sushi - Encomendar Online Oficial';?>
   </title>
 
 
@@ -26,7 +26,7 @@
   
 
   <!-- ==============OG=================== -->
-  <meta property="og:title" content="Rainbow Sushi Mol - Encomendar Online Oficial">
+  <meta property="og:title" content="Rainbow Sushi - Encomendar Online Oficial">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rainbowsushi.pt/">
   <meta property="og:image" content="https://rainbowsushi.pt/assets/images/rainbow_sushi_mol.png">
